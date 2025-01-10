@@ -30,7 +30,7 @@ Official implementation of **DiffSBDD**, an equivariant diffusion model for stru
 
 ### Conda environment
 ```bash
-conda create -n sbdd-env
+conda create -n sbdd-env python=3.10.4
 conda activate sbdd-env
 conda install pytorch cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge pytorch-lightning
