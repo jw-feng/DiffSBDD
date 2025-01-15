@@ -40,6 +40,7 @@ conda install -c conda-forge biopython=1.79
 conda install -c conda-forge imageio
 conda install -c anaconda scipy
 conda install -c pyg pytorch-scatter
+conda install torch-scatter
 conda install -c conda-forge openbabel
 conda install seaborn
 ```
