@@ -32,6 +32,22 @@ Official implementation of **DiffSBDD**, an equivariant diffusion model for stru
 ```bash
 conda create -n sbdd-env python=3.10.4
 conda activate sbdd-env
+pip3 install numpy==1.26
+pip3 install pandas==1.5
+pip3 install torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+#pip3  install torch==2.0.1
+pip3  install torch==1.12.1
+pip3 install pytorch-lightning==1.8.4
+pip3 install rdkit==2022.3.3
+pip3 install biopython==1.79
+pip3 install torch-scatter -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+pip3 install py3Dmol
+pip3 install openbabel-wheel
+pip3 install wandb
+pip3 install matplotlib
+pip3 install imageio==2.21.2
+pip3 install scipy seaborn
+
 conda install pytorch cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge pytorch-lightning
 conda install -c conda-forge wandb
