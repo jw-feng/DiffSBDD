@@ -48,16 +48,18 @@ pip3 install matplotlib
 pip3 install imageio==2.21.2
 pip3 install scipy seaborn
 
-conda install pytorch cudatoolkit=10.2 -c pytorch
-conda install -c conda-forge pytorch-lightning
-conda install -c conda-forge wandb
-conda install -c conda-forge rdkit
+conda install -c conda-forge pandas=1.5
+#conda install pytorch cudatoolkit=10.2 -c pytorch
+conda install pytorch=1.12.1 cudatoolkit=10.2 -c pytorch
+conda install -c conda-forge pytorch-lightning=1.7.4
+conda install -c conda-forge wandb=0.13.1
+conda install -c conda-forge rdkit=2022.3.3
 conda install -c conda-forge biopython=1.79
-conda install -c conda-forge imageio
-conda install -c anaconda scipy
-conda install -c pyg pytorch-scatter
-conda install torch-scatter
-conda install -c conda-forge openbabel
+conda install -c conda-forge imageio=2.21.2
+conda install -c anaconda scipy=1.7.3
+conda install -c pyg pytorch-scatter=2.0.9
+#conda install torch-scatter
+conda install -c conda-forge openbabel=3.1.1
 conda install seaborn
 ```
 
